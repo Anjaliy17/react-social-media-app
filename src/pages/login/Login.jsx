@@ -1,5 +1,5 @@
 import "./login.scss";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -9,9 +9,9 @@ const Login = () => {
                 <h1>Hello World.</h1>
                 <p>Social Media isn't a fad, it's a fundamental shift in the way we communicate.</p>
                 <span>Don't you have an account?</span>
-                {/* <Link to="/register"> */}
+                <Link to="/register">
                     <button>Register</button>
-                {/* </Link> */}
+                </Link>
             </div>
             <div className="right">
                 <h1>Login</h1>

@@ -1,5 +1,5 @@
 import "./register.scss";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Register = () => {
   return (
@@ -9,9 +9,9 @@ const Register = () => {
           <h1>Chit Chat</h1>
           <p>Social Media isn't a fad, it's a fundamental shift in the way we communicate.</p>
           <span>Do you have an account?</span>
-          {/* <Link to= "/login" > */}
+          <Link to= "/login" >
             <button>Login</button>
-          {/* </Link> */}
+          </Link>
         </div>
         <div className="right">
           <h1>Register</h1>
