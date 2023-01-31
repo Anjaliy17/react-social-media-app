@@ -12,7 +12,7 @@ const Login = () => {
        navigate("/profile");
    };
 
-    const { login } = useContext(AuthContext);
+   // const { login } = useContext(AuthContext);
 
    // const handleLogin = () => {
     //    login();
